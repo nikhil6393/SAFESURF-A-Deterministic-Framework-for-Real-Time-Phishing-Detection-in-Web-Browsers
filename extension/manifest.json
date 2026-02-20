@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "SafeSurf",
+    "version": "1.0",
+    "description": "Scan current tab for malware indicators.",
+    "permissions": [
+        "activeTab",
+        "notifications",
+        "storage",
+        "tabs",
+        "webRequest"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

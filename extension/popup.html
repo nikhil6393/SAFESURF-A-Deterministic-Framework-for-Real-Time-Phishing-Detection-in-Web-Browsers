@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeSurf | Hologram UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="hologram-overlay"></div>
+    <div class="matrix-bg"></div>
+    <div class="border-trace"></div>
+
+    <!-- BACKGROUND BLOBS -->
+    <div class="pop-blob"></div>
+    <div class="pop-blob pop-blob-2"></div>
+
+    <div class="main-container">
+        <!-- HEADER -->
+        <header class="hud-header">
+            <div class="hud-logo">
+                <i class="fas fa-microchip"></i>
+                <span>SAFESURF.SCAN</span>
+            </div>
+            <div class="pulse-node"></div>
+        </header>
+
+        <!-- RADAR GAUGE -->
+        <div class="radar-wrap">
+            <div class="ping" id="radar-ping"></div>
+            <div class="gauge-3d">
+                <svg width="200" height="200">
+                    <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="12" />
+                    <circle id="progress-path" cx="100" cy="100" r="90" fill="none" stroke="#00f0ff" stroke-width="12"
+                        stroke-dasharray="565.48" stroke-dashoffset="565.48" stroke-linecap="round" />
+                </svg>
+                <div class="score-hud">
+                    <span id="score-text">100</span>
+                    <div style="font-size: 0.6rem; letter-spacing: 2px; opacity: 0.6; font-weight: 800;">SAFETY INDEX
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="status-row">
+            <div class="status-chip" id="status-chip">PERIMETER_CLEAR</div>
+        </div>
+
+        <!-- INTEL FEED -->
+        <div class="intel-feed" id="intel-feed">
+            <div class="intel-card">
+                <div class="card-icon"><i class="fas fa-fingerprint"></i></div>
+                <div class="card-text">Neural Core Initialized</div>
+            </div>
+        </div>
+
+        <!-- ACTIONS -->
+        <div class="action-grid">
+            <button class="haptic-btn btn-primary" id="terminate-btn">TERMINATE</button>
+            <button class="haptic-btn btn-ghost" onclick="window.close()">BYPASS</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

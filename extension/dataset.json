@@ -1,0 +1,17 @@
+{
+    "version": "1.0.3",
+    "last_updated": "2026-02-12",
+    "description": "Publicly available open-source phishing intelligence feeds optimized for client-side threat detection.",
+    "blacklist": [
+        "malicious.com",
+        "scam-site.tk",
+        "phishing-test.com",
+        "bad-domain1.com",
+        "phishing-example.tk",
+        "malware-redirect.ml",
+        "secure-login-verify.xyz",
+        "bank-update–support.top",
+        "giftcard-free-win.click",
+        "account-alert-security.net"
+    ]
+}
