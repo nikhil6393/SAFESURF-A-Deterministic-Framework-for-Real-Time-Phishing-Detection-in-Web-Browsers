@@ -1,4 +1,4 @@
-# 🛡️ SafeSurf: Next-Gen Web Security Guard
+# 🛡️ SAFESURF: A Deterministic Framework for Real-Time Phishing Detection in Web Browsers
 
 **SafeSurf** is your personal 24/7 cyber security guard. While you browse the web, it works silently in the background to protect you from scams, fake login pages (phishing), and malicious links. **If a threat is detected (even a minor suspicion), it instantly shows a Red Warning Popup**, ensuring you are alerted before you proceed. 
 
