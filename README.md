@@ -109,16 +109,4 @@ This is the powerhouse that processes all the data.
 2. Turn on **Developer Mode**.
 3. Click **Load Unpacked** and select the `extension` folder.
 
----
-
-## ❓ Quick FAQ
-
-**Q: Does it scan my private messages?**  
-**A:** No. SafeSurf only looks for web links (URLs). It doesn't read your personal conversations; it just checks if the links you are about to click are safe.
-
-**Q: Will it slow down my internet?**  
-**A:** Actually, it might make it feel faster! By warning you about scam scripts before you engage, your browser doesn't waste time on dangerous content.
-
-**Q: What is MongoDB?**  
-**A:** It’s just a digital filing cabinet in the cloud where we store your scan history so you can see your "Security Report Card" anytime.
 
