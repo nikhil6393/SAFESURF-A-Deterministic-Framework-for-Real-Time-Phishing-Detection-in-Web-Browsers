@@ -54,7 +54,8 @@ class DatasetLoader {
 
     parseStandardDataset(lines, header) {
         const urlIdx = header.indexOf('url');
-        const typeIdx = header.indexOf('type') !== -1 ? header.indexOf('type') : header.indexOf('label');
+        const typeIdx = header.indexOf('type');
+        const labelIdx = header.indexOf('label');
 
         if (urlIdx === -1) {
             console.warn("No 'url' column found in this dataset. Skipping signature indexing.");
@@ -67,11 +68,16 @@ class DatasetLoader {
 
             const parts = line.split(',');
             let url = parts[urlIdx] ? parts[urlIdx].trim() : '';
-            let type = parts[typeIdx] ? parts[typeIdx].trim() : 'unknown';
-
+            let type = (typeIdx !== -1 && parts[typeIdx]) ? parts[typeIdx].trim() : 'unknown';
+            
             if (!url) continue;
 
-            let label = (type === 'benign' || type === 'safe') ? 'safe' : (type === 'defacement' ? 'suspicious' : 'malicious');
+            let label;
+            if (labelIdx !== -1 && parts[labelIdx]) {
+                label = parts[labelIdx].trim();
+            } else {
+                label = (type === 'benign' || type === 'safe') ? 'safe' : (type === 'defacement' ? 'suspicious' : 'malicious');
+            }
 
             this.addToIndex(url, label, type);
         }
