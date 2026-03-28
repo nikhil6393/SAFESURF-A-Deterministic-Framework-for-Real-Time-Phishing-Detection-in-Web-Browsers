@@ -95,6 +95,11 @@ app.get('/api/stats', async (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`Security Backend running at http://localhost:${PORT}`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Security Backend running at http://localhost:${PORT}`);
+    });
+}
+
+// Export for Vercel and other serverless environments
+module.exports = app;
