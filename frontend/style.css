@@ -298,7 +298,7 @@ body {
     border: 1px solid var(--border);
     border-radius: 14px;
     padding: 6px 6px 6px 20px;
-    width: 480px;
+    width: 580px;
     align-items: center;
     transition: all 0.3s var(--easing);
 }

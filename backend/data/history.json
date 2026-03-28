@@ -1,5 +1,565 @@
 [
   {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pull/5400",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:38:26.553Z",
+    "refId": "REF-EFLF4UXGE"
+  },
+  {
+    "url": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
+    "label": "Safe",
+    "score": 15,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:38:17.546Z",
+    "refId": "REF-9PJFGEKZV"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pull/5400",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:36:44.983Z",
+    "refId": "REF-137S4GVAZ"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pull/5400",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:36:44.800Z",
+    "refId": "REF-V0DQ6TI0A"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pull/5400",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:36:44.210Z",
+    "refId": "REF-UWN4HJMDU"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls/nikhil6393",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:36:38.859Z",
+    "refId": "REF-OTJ3OTD0X"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:36:31.992Z",
+    "refId": "REF-VZVC8ZZZ0"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:35:50.729Z",
+    "refId": "REF-MKDYGK9U8"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:35:47.118Z",
+    "refId": "REF-VI82ZMYZO"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:35:44.940Z",
+    "refId": "REF-LITPZLY9A"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:35:42.496Z",
+    "refId": "REF-7LOGGK3IO"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:35:34.017Z",
+    "refId": "REF-O0XUJ4SCI"
+  },
+  {
+    "url": "https://github.com/learning-unlimited/ESP-Website/pulls",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T11:34:53.826Z",
+    "refId": "REF-K6WPLWPXH"
+  },
+  {
+    "url": "https://accounts.google.com/restart?access_type=offline&app_domain=https%3A%2F%2Fclaude.ai&client_id=1062961139910-l2m55cb9h51u5cuc9c56eb3fevouidh9.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAM7510a7St753uPgJBN8MhyCl8zstJEAhwUEKjlXlqOeX_cp222L1MPqihF_HMwfuVt6E3QdX5cpADWBn2YXHl2dYjrnws8hul2BqJ_4kg_Vwpa05I2_z7jvVuTSWU7JfMeM7hMDXaj9qHKHVeAXYU3-ozQJm5UDVIRwUldTPWPXpaEIp3U7GS2zY_dgYJos-bVVMif0B3X0S_ckjZziAXkHIRsJU8Gw8oNXdPXXx-Bf81b_5HXKJFKvOnrEhvySSTsnQD0OUWaotEHDbWw3zX-Bey3vM2F4qqi0YTANN8JPInVadXH9azEm7HiyjocrTjA97c-NvOG-2mX18_IiJI-HVgXgs7qluh6xu7EHGDxOXYBKqWHjA044gaRtwsAWKss04No601nIuBpiD9BFWqdQRLH1NZeJ1JYGKHRmwOLCMPm8Dz8E-wvEFxf5cMtxQjtiG-WNrPFWwzleY1VKJIHRGNr1g%26flowName%3DGeneralOAuthFlow%26as%3DS71119194%253A1774440652288773%26client_id%3D1062961139910-l2m55cb9h51u5cuc9c56eb3fevouidh9.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S71119194%3A1774440652288773&flowName=GeneralOAuthFlow&gsiwebsdk=3&include_granted_scopes=true&o2v=2&opparams=%253Fenable_granular_consent%253Dtrue&prompt=consent&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fclaude.ai%3Fid%3Dauth117146&response_type=code&scope=openid%20profile%20email&service=lso",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-26T05:37:20.220Z",
+    "refId": "REF-8BWKIVV4D"
+  },
+  {
+    "url": "vector.xyz",
+    "label": "Suspicious",
+    "score": 55,
+    "source": "heuristics",
+    "timestamp": "2026-03-25T12:46:09.755Z",
+    "refId": "REF-WIU46SJG5"
+  },
+  {
+    "url": "https://search.brave.com/search?q=vector.xyz&source=web",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-25T12:45:56.063Z",
+    "refId": "REF-EEUXQICJY"
+  },
+  {
+    "url": "https://search.brave.com/search?q=vector.xyz&source=web",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-25T12:45:56.039Z",
+    "refId": "REF-7PU0Z2LM5"
+  },
+  {
+    "url": "https://search.brave.com/search?q=vector+dshcdh&source=desktop",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-03-25T12:45:45.461Z",
+    "refId": "REF-U7M99N01A"
+  },
+  {
+    "url": "https://paypal.xyz/",
+    "label": "Malicious",
+    "score": 100,
+    "source": "heuristics",
+    "timestamp": "2026-03-25T12:45:28.291Z",
+    "refId": "REF-NNK6JWNKT"
+  },
+  {
+    "url": "http://localhost:3000/",
+    "label": "Safe",
+    "score": 25,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T12:39:50.891Z",
+    "refId": "REF-Z9EGPPC7N"
+  },
+  {
+    "url": "http://.env.local/",
+    "label": "Safe",
+    "score": 25,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T12:35:21.063Z",
+    "refId": "REF-1P0IYBEVO"
+  },
+  {
+    "url": "http://.env.local/",
+    "label": "Safe",
+    "score": 25,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T12:34:38.866Z",
+    "refId": "REF-062T5155O"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showCode=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T12:18:32.998Z",
+    "refId": "REF-UEKCUHEMF"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:51:18.204Z",
+    "refId": "REF-MH6XGJCQQ"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showCode=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:50:25.602Z",
+    "refId": "REF-7JY9SQ2FS"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:48:22.269Z",
+    "refId": "REF-LGBZ27UAI"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true&fullscreenApplet=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:48:18.108Z",
+    "refId": "REF-T1L8PNDPG"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:48:08.837Z",
+    "refId": "REF-STW8OOKBY"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showCode=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:48:04.577Z",
+    "refId": "REF-QDTPXKB4R"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showPreview=true&showAssistant=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:46:54.602Z",
+    "refId": "REF-N5Y79M3JZ"
+  },
+  {
+    "url": "https://aistudio.google.com/apps",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:46:50.502Z",
+    "refId": "REF-N87GHDYL5"
+  },
+  {
+    "url": "https://aistudio.google.com/?project=gen-lang-client-0815906807",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:46:50.164Z",
+    "refId": "REF-ALURD7SST"
+  },
+  {
+    "url": "https://aistudio.google.com/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:46:48.616Z",
+    "refId": "REF-1Z5O5T3LG"
+  },
+  {
+    "url": "https://aistudio.google.com/apps",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:46:44.817Z",
+    "refId": "REF-QA9KG3OXM"
+  },
+  {
+    "url": "https://leetcode.com/u/nikhil_78/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:30:29.599Z",
+    "refId": "REF-19L9NST1J"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:20:40.359Z",
+    "refId": "REF-VUMBGP0XA"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showCode=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:20:34.310Z",
+    "refId": "REF-Y243UQMFQ"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:11:53.014Z",
+    "refId": "REF-0TE9SKX7H"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showCode=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:11:44.506Z",
+    "refId": "REF-ZO1XTC6Z4"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T11:10:51.420Z",
+    "refId": "REF-WJS0MYH40"
+  },
+  {
+    "url": "https://leetcode.com/quest/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:53:03.166Z",
+    "refId": "REF-GX7WA568U"
+  },
+  {
+    "url": "https://leetcode.com/quest/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:53:02.114Z",
+    "refId": "REF-JMELMCK6X"
+  },
+  {
+    "url": "https://leetcode.com/quest/database-quest/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:52:58.484Z",
+    "refId": "REF-548CKLYV6"
+  },
+  {
+    "url": "https://leetcode.com/quest/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:52:53.473Z",
+    "refId": "REF-KO13DWY3C"
+  },
+  {
+    "url": "https://leetcode.com/problemset/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:52:49.069Z",
+    "refId": "REF-U3IJ83W5D"
+  },
+  {
+    "url": "https://leetcode.com/u/nikhil_78/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:50:52.158Z",
+    "refId": "REF-BAFJYAYQI"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showPreview=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:47:20.353Z",
+    "refId": "REF-M2BSW1KPR"
+  },
+  {
+    "url": "https://aistudio.google.com/apps/3ecffe9d-4b5a-4b9d-ac12-6143ea66ec3e?showAssistant=true&showCode=true",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:47:16.173Z",
+    "refId": "REF-I4G0CD0PJ"
+  },
+  {
+    "url": "https://rork.com/p/gg0lsfxbjeajxrhiq2rn2",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T10:43:43.130Z",
+    "refId": "REF-VSLWJN9EB"
+  },
+  {
+    "url": "https://leetcode.com/u/nikhil_78/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:26:03.462Z",
+    "refId": "REF-CLHAP5S0D"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/submissions/1932593091/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:54.137Z",
+    "refId": "REF-JGXFUD3ID"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/submissions/1932593091/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:53.555Z",
+    "refId": "REF-YZYCMQLI8"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:45.380Z",
+    "refId": "REF-2L9DBWDES"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/solutions/5564037/video-iterate-through-the-array-from-the-7h3q/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:36.006Z",
+    "refId": "REF-FRY5J5TMN"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/solutions/5564037/video-iterate-through-the-array-from-the-7h3q/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:35.336Z",
+    "refId": "REF-EV4EK4PGV"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/solutions/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:30.266Z",
+    "refId": "REF-N1ISSROBV"
+  },
+  {
+    "url": "https://leetcode.com/problems/plus-one/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:26.395Z",
+    "refId": "REF-1VEITCGSG"
+  },
+  {
+    "url": "https://leetcode.com/problems/pascals-triangle-ii/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:25:11.895Z",
+    "refId": "REF-ZQDH7W20T"
+  },
+  {
+    "url": "https://leetcode.com/problems/contains-duplicate/description/",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-27T08:24:56.071Z",
+    "refId": "REF-I82O8XBYT"
+  },
+  {
+    "url": "https://github.com/nikhil6393/SAFESURF-A-Deterministic-Framework-for-Real-Time-Phishing-Detection-in-Web-Browsers",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:38:23.194Z",
+    "refId": "REF-P5POYDZAI"
+  },
+  {
+    "url": "https://github.com/nikhil6393/SAFESURF-A-Deterministic-Framework-for-Real-Time-Phishing-Detection-in-Web-Browsers",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:38:22.661Z",
+    "refId": "REF-0094UVEBX"
+  },
+  {
+    "url": "https://github.com/new",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:37:21.454Z",
+    "refId": "REF-K7XQE4GVD"
+  },
+  {
+    "url": "https://github.com/repos",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:37:15.910Z",
+    "refId": "REF-VO04IBZZF"
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:37:12.901Z",
+    "refId": "REF-U2RO8Y7AU"
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:37:12.748Z",
+    "refId": "REF-MFOEENRON"
+  },
+  {
+    "url": "https://docs.github.com/en",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:37:10.720Z",
+    "refId": "REF-WH5ZXZOF8"
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:37:08.649Z",
+    "refId": "REF-HCK5I7L7Z"
+  },
+  {
+    "url": "https://github.com/repos",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:36:58.576Z",
+    "refId": "REF-6KYN19F5S"
+  },
+  {
+    "url": "https://app.originality.ai/home/scan",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:36:52.405Z",
+    "refId": "REF-JYMZU2HGL"
+  },
+  {
+    "url": "https://notegpt.io/ai-humanizer",
+    "label": "Safe",
+    "score": 0,
+    "source": "heuristics",
+    "timestamp": "2026-02-20T12:36:52.308Z",
+    "refId": "REF-XK55K2BZA"
+  },
+  {
     "url": "https://leetcode.com/problems/merge-sorted-array/submissions/1925104600/",
     "label": "Safe",
     "score": 0,
@@ -238,565 +798,5 @@
     "source": "heuristics",
     "timestamp": "2026-02-20T06:28:20.750Z",
     "refId": "REF-8WUK3XU7S"
-  },
-  {
-    "url": "https://leetcode.com/problem-list/2d8wbalg/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:28:17.736Z",
-    "refId": "REF-12MPW95DE"
-  },
-  {
-    "url": "https://leetcode.com/problem-list/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:28:17.350Z",
-    "refId": "REF-O2KBV7GHV"
-  },
-  {
-    "url": "https://leetcode.com/u/nikhil_78/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:39.372Z",
-    "refId": "REF-K4IIH2PPA"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/submissions/1925093312/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:34.350Z",
-    "refId": "REF-S6F2ANS0R"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/submissions/1925093312/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:33.649Z",
-    "refId": "REF-FOFI818PZ"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/submissions/1925093312/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:32.786Z",
-    "refId": "REF-TLOETZUOT"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:23.611Z",
-    "refId": "REF-CJJ3VXTQS"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:14.803Z",
-    "refId": "REF-1FHX59VVZ"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/solutions/4804983/beats-100-0ms-advanced-two-pointer-appro-d7ni/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:08.510Z",
-    "refId": "REF-190HIEOQM"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/solutions/4804983/beats-100-0ms-advanced-two-pointer-appro-d7ni/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:07.928Z",
-    "refId": "REF-CF1PLYJ9Q"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/solutions/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:27:05.533Z",
-    "refId": "REF-R537A8X0P"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/solutions/5792415/video-using-two-pointers-coding-exercise-twyg/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:26:55.095Z",
-    "refId": "REF-529HRVOQZ"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/solutions/5792415/video-using-two-pointers-coding-exercise-twyg/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:26:51.525Z",
-    "refId": "REF-VHALAGRWZ"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/solutions/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:26:45.325Z",
-    "refId": "REF-8SDCNLZUB"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:26:42.960Z",
-    "refId": "REF-HL3D9SM3G"
-  },
-  {
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:26:41.790Z",
-    "refId": "REF-AJ1RNMIIF"
-  },
-  {
-    "url": "https://leetcode.com/problems/reverse-words-in-a-string/submissions/1922958678/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-20T06:26:23.164Z",
-    "refId": "REF-H3EGLOWU3"
-  },
-  {
-    "url": "https://config.office.com/deploymentsettings",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-19T14:41:16.224Z",
-    "refId": "REF-R6BSQD3DM"
-  },
-  {
-    "url": "https://www.bing.com/search?qs=AS&pq=office+&sk=CSYN1LS1AS2NLS2&sc=18-7&pglt=299&q=office+customization+tool&cvid=d57216ba4dff4664aaf9982c1cdda832&gs_lcrp=EgRlZGdlKgYIBBAAGEAyBwgAEAAY-QcyBggBEEUYOTIGCAIQABhAMgYIAxAAGEAyBggEEAAYQDIGCAUQABhAMgYIBhAAGEAyBggHEAAYQDIGCAgQABhA0gEINDM4OWowajGoAgCwAgA&FORM=ANSPA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-19T14:41:15.472Z",
-    "refId": "REF-ZE0P4496V"
-  },
-  {
-    "url": "https://www.bing.com/search?qs=AS&pq=office+&sk=CSYN1LS1AS2NLS2&sc=18-7&pglt=299&q=office+customization+tool&cvid=d57216ba4dff4664aaf9982c1cdda832&gs_lcrp=EgRlZGdlKgYIBBAAGEAyBwgAEAAY-QcyBggBEEUYOTIGCAIQABhAMgYIAxAAGEAyBggEEAAYQDIGCAUQABhAMgYIBhAAGEAyBggHEAAYQDIGCAgQABhA0gEINDM4OWowajGoAgCwAgA&FORM=ANSPA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-19T14:41:01.610Z",
-    "refId": "REF-BBP4MXKVS"
-  },
-  {
-    "url": "https://myaccount.google.com/?hl=en_GB&utm_source=OGB&utm_medium=act&gar=WzBd&pli=1",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:42:47.475Z",
-    "refId": "REF-KPRQUIYKR"
-  },
-  {
-    "url": "https://gemini.google.com/app/09579c5a45f9e7e0",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:42:22.390Z",
-    "refId": "REF-PDU1DPX1Z"
-  },
-  {
-    "url": "https://gemini.google.com/app",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:42:06.920Z",
-    "refId": "REF-JTSWA13NE"
-  },
-  {
-    "url": "https://www.bing.com/search?q=gemini%20&qs=n&form=QBRE&sp=-1&lq=0&pq=gemini%20&sc=12-7&sk=&cvid=50E9252196F94D269BB985DDEC9BB662",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:42:03.170Z",
-    "refId": "REF-8GC4HH4SV"
-  },
-  {
-    "url": "https://www.bing.com/search?q=gemini%20&qs=n&form=QBRE&sp=-1&lq=0&pq=gemini%20&sc=12-7&sk=&cvid=50E9252196F94D269BB985DDEC9BB662",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:42:01.261Z",
-    "refId": "REF-S3VAT86DJ"
-  },
-  {
-    "url": "https://www.bing.com/search?q=gemini+ai+login&FORM=QSRE13",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:41:55.261Z",
-    "refId": "REF-UG8EH5J6S"
-  },
-  {
-    "url": "https://www.bing.com/search?qs=AS&pq=gemini&sk=CSYN1HS1&sc=16-6&pglt=299&q=gemini+ai&cvid=2311cb48fcf54180bedfbb1a8612ca1f&gs_lcrp=EgRlZGdlKgYIARAAGEAyBggAEEUYOzIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAuGEAyBggGEAAYQDIGCAcQABhAMgYICBBFGDzSAQg3MjU3ajBqMagCALACAA&FORM=ANNTA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:41:54.327Z",
-    "refId": "REF-PJBVFQ7VY"
-  },
-  {
-    "url": "https://use.ai/?model=gemini&utm_match_type=e&utm_funnel=&partner=WM&id=YmluZ3xjcGN8V1ctRU4tVDItQWxsRGV2aWNlcy1TZWFyY2gtVXNlQUl8NTIzNDkxODMyfGdlbWluaSBhaXx8fDEzMjE2MTU3MDkxNTkxMTJ8V1ctRU4tVDItR2VtaW5pLUdlbmVyaWMtRXhhY3R8fHx8fHx8fHx8&url=https%3A%2F%2Fuse.ai%3Fmodel%3Dgemini&msclkid=b9c51c80af871e4b2584751572325926",
-    "label": "Safe",
-    "score": 25,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:41:48.341Z",
-    "refId": "REF-1HSK1U1XS"
-  },
-  {
-    "url": "https://www.bing.com/search?qs=AS&pq=gemini&sk=CSYN1HS1&sc=16-6&pglt=299&q=gemini+ai&cvid=2311cb48fcf54180bedfbb1a8612ca1f&gs_lcrp=EgRlZGdlKgYIARAAGEAyBggAEEUYOzIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAuGEAyBggGEAAYQDIGCAcQABhAMgYICBBFGDzSAQg3MjU3ajBqMagCALACAA&FORM=ANNTA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:41:43.996Z",
-    "refId": "REF-MCPAU519P"
-  },
-  {
-    "url": "https://www.bing.com/search?qs=AS&pq=gemini&sk=CSYN1HS1&sc=16-6&pglt=299&q=gemini+ai&cvid=2311cb48fcf54180bedfbb1a8612ca1f&gs_lcrp=EgRlZGdlKgYIARAAGEAyBggAEEUYOzIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAuGEAyBggGEAAYQDIGCAcQABhAMgYICBBFGDzSAQg3MjU3ajBqMagCALACAA&FORM=ANNTA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:41:41.625Z",
-    "refId": "REF-JUU1PTSW5"
-  },
-  {
-    "url": "https://image-generator.com/ai-image-generator",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:40:42.216Z",
-    "refId": "REF-YGG1C5YZX"
-  },
-  {
-    "url": "https://www.bing.com/search?pglt=299&q=image+generator+free&cvid=572e07555e27426a9cce58f24a228294&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg1MDg3ajBqMagCALACAA&FORM=ANSPA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:40:34.728Z",
-    "refId": "REF-EC1PTVJ07"
-  },
-  {
-    "url": "https://accounts.google.com/signin/oauth/consent?as=S151770399%3A1771429134030620&authuser=0&client_id=220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com&flowName=GeneralOAuthFlow&part=AJi8hAO4a7hZaKiDxuyt58LOWR4FMPSDD9Rp6wg0GesJ2O_nsAp8DlDQFQt9whthd6di017cegVBuLwSngY1RFXSmjh5ELlyNBByQR-SsxSZZmsZNOC9I6K52VIJuyTz6ffjMITCFoJ_c6vQSZMKBx7MMTI6OA16CObCtTgrIK2vN_yBoU8b-lywLq1cxmYb9Nbe6BMtAxEd6krmabA4HuKQNWbNDcyt5ceH3fmpHDbwhCbEOeXPNlRihsafxXWguQpoVTy4MZuPO22oMrc0OvJi5ytjzIkZ9EhP3emocWXPXVv4VKItaDzSb9Jlo75IyVDaWy4_as96lyLpSpluLayFEivBfPX2mPHIx8ZxtvqAL7Ckru3Zv9xZ5YMDcA9sqnMLcgL-YNSgMbVZ9elJzXMEVMYqHhlfXVhwFJ9wlV4twadW2uy9gbTxIy9A4dfqpum_WiSqQaZmycGoMADJRHg3QU0N86pPYwrO8WIDSrpR3EKeUGogdwCQM_CE-SzNGYjBJfqlZLCZKirg0onGl9gdrRJYrY22Ri1nta4dnQ7re5Ayec_d-MWXzudACu30dfV4k5u0O72aatJuTXd1BaVPb1uFoOEuxVVG89XO7txbrpBIerrggs_RjMwevRtFyR8QmvLPyA9UiJoMZIEkXkajEFJydWQQafp0wDGoAOzgtWOKyqwcRW8belHU-fQGuoNY8413JGb96ZuSzlQICigAikPhvOcRIH-Kqf9BHjAijRdY8KETnK0ec4GFfZhsYpvVxKKyr6Vg3iADAbHr7O-hz-FCfw8FOYNtSbffNxZaLbrYd-VtipLCac_ngMNWEkGCBCf0aNJIM_9yrmjwIxV3IBVWygMLCQ&rapt=AEjHL4NzzTft5RyxfnlCNYOC0C2xEWGHmOci6R_xLNiQFAx8DKFiZqbWYe5PYvhj--EaEivgkHaN831yIAHraLoAf7mcwQmh-kKoVJ7ZjMTnksuBEwzbLSE&xsrf=AHRwiMDU8xaa-GocVOAPBrKsRFJF%3A1771429158696",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:39:23.348Z",
-    "refId": "REF-5I9X3XIR1"
-  },
-  {
-    "url": "https://accounts.google.com/signin/oauth/id?authuser=0&part=AJi8hAO2nn0iEVGofQNoFrBUVzsSodAzzfO0GZS7t_-lyrm04lOcv7u4tiz2N6ChxlXOalPKg_63U8ZfFz40YDTlOfmafwati5N6VgGAAAz3Ne6Atul25k2yb2Ws9f2yQQJ3A0Ocb0jrree3Ql-WniTCUbQ_rOmj8RbV9P4Ag1YTo7DTNxMXLnyK20FYEBSUHZoO-CkkgsZMglvSl8o6MoatNEVkb3sE12pgQc3Xfv0m4WRgfourtGKlt22sXLhSr0H2jUDo90-rCtbg83TujSVCkY3IYzK61Zny16oaz6FR_c-brJSCoo4pgpR5sX45W1uubTeKQgP1D-oc60cIKqeeFgAku8tJ4x3G-IVYOZ0e0t9vfKDmVni3GjJu8O0b41OUlmT94_VhtqbxgMPmVq2TPqV5QdvTcsBFXdO62m1ig1LbNooHCDOrgP18vhuZDWBwD88K2Zzxh5eGueev7zxaUP3ypDNPvzryT7JkM-4fUYVKpGr5W2BKbvX9if3ZPfKUY7RZzjhWXp6co5fbRj2JliwjSnG6vzl1MYaCy3CoI95XAQU-zpY7ZjkKK7dXHwTebds-GYG_qHxVkY15XdtXT2OHZyDRvzc2_WwFQ84xgmF3Wix09z8WtecbfA45zcg7nFFzZx5smSPfLOZItlvd6_4L_xe-WkCcMnJRhcn8QJACuQv5mk07Sf-Fmc1bAM7Udyr1Z_5b2lvgscOmzUSJQGNoND_jwUKGv73chggKIDFGpNdv1L47E08aDb_P0fa7CSaivyBtK93jPETZpeU-Q22C4h2JRduxQ9-ok6BYPqbpoDy_GkwMQVx1RfmXCD1MepbWb4keWSTcIYCrvjZJ0oa9TInRTQ&flowName=GeneralOAuthFlow&as=S151770399%3A1771429134030620&client_id=220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com&rapt=AEjHL4NzzTft5RyxfnlCNYOC0C2xEWGHmOci6R_xLNiQFAx8DKFiZqbWYe5PYvhj--EaEivgkHaN831yIAHraLoAf7mcwQmh-kKoVJ7ZjMTnksuBEwzbLSE&requestPath=%2Fsignin%2Foauth%2Fconsent#",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:39:19.665Z",
-    "refId": "REF-S690SFB1P"
-  },
-  {
-    "url": "https://accounts.google.com/v3/signin/challenge/pwd?TL=AHU8sQsT3nj3boBVspQ5E_vqa1oj-hLdn_2pokGQ2DB_G4CjPQAenTEqgz3Q9epe&app_domain=https%3A%2F%2Fwww.seaart.ai&checkConnection=youtube%3A339&checkedDomains=youtube&cid=2&client_id=220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPKWvNe_LCud67JmeO59NEv5eleXcSwDXncdAEI8XvzmuRseOz01Wkk5j6iMtHAMBMjV5vd29RaeHj8blurIp5lk6bett5yMK4rkYdZNzcacz32FZMZE5w3ft3jgp0eATKVKMNsOqhU97LfB6q4-npI4hiEnPLDVOq4voHSg7aeNRTK9g84NdLFMbZjAf9Nic03Sb0fw701GWxbDbY20YGvfK3ZlBc7V2whlFAerkfDcutKOgShkWbbRlH0Q9h1k9sG08JAMss1EFo6GZbm5lbDS6GcMNrnGRtAMN-a4WGaOxAkTLpnSvd8ui53SjkxozyNvjEb5UOI77I4R2XS112Q6HJuee8aNwSs04SF0yF-utjv_Tow-KBzgXJdcK5tL4BX6K-FI_ID5MvJj1XBoTIzV445PfA-9gJUU6eYSNNVikJK8vG58awJFxoAaKJLGHfX3ww2InsOx8wbHMmUbqGoTADP9A%26flowName%3DGeneralOAuthFlow%26as%3DS151770399%253A1771429134030620%26client_id%3D220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S151770399%3A1771429134030620&flowName=GeneralOAuthFlow&gsiwebsdk=3&include_granted_scopes=true&o2v=2&opparams=%253Fenable_granular_consent%253Dtrue&prompt=select_account&pstMsg=1&rart=ANgoxcepq6TnMOqG7WVj0T6X_xxoBscLYV23cvOxGPuNx-4pSnVhkwG3EyTQ399ZjoxTCQDpooVYUQqG5d-0rXiWbQQBIpXjP8EFTeIJP_yfIHho9tauBts&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.seaart.ai%3Fid%3Dauth196330&response_type=token&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20openid&service=lso",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:39:04.792Z",
-    "refId": "REF-INT9B37VQ"
-  },
-  {
-    "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fenable_granular_consent%253Dtrue&dsh=S151770399%3A1771429134030620&client_id=220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com&gsiwebsdk=3&include_granted_scopes=true&o2v=2&prompt=select_account&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.seaart.ai%3Fid%3Dauth196330&response_type=token&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&service=lso&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPKWvNe_LCud67JmeO59NEv5eleXcSwDXncdAEI8XvzmuRseOz01Wkk5j6iMtHAMBMjV5vd29RaeHj8blurIp5lk6bett5yMK4rkYdZNzcacz32FZMZE5w3ft3jgp0eATKVKMNsOqhU97LfB6q4-npI4hiEnPLDVOq4voHSg7aeNRTK9g84NdLFMbZjAf9Nic03Sb0fw701GWxbDbY20YGvfK3ZlBc7V2whlFAerkfDcutKOgShkWbbRlH0Q9h1k9sG08JAMss1EFo6GZbm5lbDS6GcMNrnGRtAMN-a4WGaOxAkTLpnSvd8ui53SjkxozyNvjEb5UOI77I4R2XS112Q6HJuee8aNwSs04SF0yF-utjv_Tow-KBzgXJdcK5tL4BX6K-FI_ID5MvJj1XBoTIzV445PfA-9gJUU6eYSNNVikJK8vG58awJFxoAaKJLGHfX3ww2InsOx8wbHMmUbqGoTADP9A%26flowName%3DGeneralOAuthFlow%26as%3DS151770399%253A1771429134030620%26client_id%3D220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fwww.seaart.ai&rart=ANgoxcepq6TnMOqG7WVj0T6X_xxoBscLYV23cvOxGPuNx-4pSnVhkwG3EyTQ399ZjoxTCQDpooVYUQqG5d-0rXiWbQQBIpXjP8EFTeIJP_yfIHho9tauBts",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:38:55.419Z",
-    "refId": "REF-F55XFI98K"
-  },
-  {
-    "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fenable_granular_consent%253Dtrue&dsh=S1427818328%3A1771429121653481&client_id=220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com&gsiwebsdk=3&include_granted_scopes=true&o2v=2&prompt=select_account&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.seaart.ai%3Fid%3Dauth334855&response_type=token&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&service=lso&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANLi6kQQKLHjs7kKy7e84Elzo1IXNqwRkprREx8Dfk2Y908_WHYlgrNzgbth0kV0Kn0bvopoLQZ7a7vO-4v76_yj1Twh5bexxsWlFAEOZkMjDnaLWbbbGeAoI_sBbIwtt4aijt_Qr3O9n4BOyVSgapXtAxQoO8-oIQgnZeOdJLd7_D1FawM2uK3XCy7XDvLuEINmOp_FUYmyf2-vSMVInJS7sdhMRPyd2_gu_6rouZMYAmXklrorDvkT1QPRcB0xO4s7MYNmM--S4VgTNKUaPgJM3LfOWUhcacamIx41Lb20szQXhoG5xuW-ujF3UVkqEVLwIR2QYmBWTtp-VECGW4G6A3GRhBLgDVy5KwKnev6yN_chO-qyJO9yr_ZFr0hFmGWLFSWkDU914IUGRa0o7NlBS_kp3Rxo3jq_Qmquue2e38FaDENtX_bgnY6LDLJUAHnT07sTTKnrU-Ra3Q5pM-nhGSkMQ%26flowName%3DGeneralOAuthFlow%26as%3DS1427818328%253A1771429121653481%26client_id%3D220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fwww.seaart.ai&rart=ANgoxcd9PhonJuNPixPdsZS12T-umf6Ra55belBX-e0aoPACNgTPlcs1dby1zbt-XOiQi56nHyfojHBfnWUPqigS855RjR96JG854p3Jluwx0C2YyvjkC_Y",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:38:43.502Z",
-    "refId": "REF-FNC51PFYE"
-  },
-  {
-    "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fenable_granular_consent%253Dtrue&dsh=S220032274%3A1771429108471610&client_id=220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com&gsiwebsdk=3&include_granted_scopes=true&o2v=2&prompt=select_account&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.seaart.ai%3Fid%3Dauth968658&response_type=token&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&service=lso&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOxrIsFR5wsRHm72ziX_OQeJ3AJKD8h1bAm9SkQ2-fpr2FXblsrIFI3B1ddihRyjfQz_xEOPi7BPIQlIy_UDfk7a-5SHvyNjQj65Hb-vgLil8FJax8SHnwUOdRHuS9SGOEL35tcHztY2ebieoXCN6XaJjuW1jdsiXpDtXN4HM_SKyTmr88_ZOta-WH3yDR8SJjpLtvl4kGW7BUYd0uQsVzi6bzafQqBXqLUvP6lvGflGlf_eoVjgxisrxrSiQdtm5BOY6b7C8pnWnS-3fnN8mYR33IJuknB1Aq0C21pTKX9DmmnjBzs5YZIIowfMOECf8UMTUcpd-XA80QuJj_28ef4k4YvDvnfbxx8uSc3N5qgL0M_zB9bwby8ZmkJ-VUQDyJ8aSVYVztnN8YIxLKFAhMF_RqGsZot-waO9b9gMhcbA_Awib1hIAsRED2FGBumfVYJw6p8XROpYM3jGlT8129aqprSiw%26flowName%3DGeneralOAuthFlow%26as%3DS220032274%253A1771429108471610%26client_id%3D220335438906-n0bj5hqf2rhdkqdl67m5dtrv53b9h74g.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fwww.seaart.ai&rart=ANgoxcfLzAAvVezenucf97FF65HJ44cm8cy016KlsB_DkQBtj2SMBGoE6sby3GrEevOPbrsaog2MLNb6UOPRkgeo3RayDIVah6Sov-GPLJw17KPr144-0LA",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:38:30.964Z",
-    "refId": "REF-Q2P4MLD8V"
-  },
-  {
-    "url": "https://www.seaart.ai/create/image?utm_source=bing&ad=WWGGKW074236&msclkid=44366b44cb4b1dfdc36102d11795f126&utm_medium=cpc&utm_campaign=BFS_WW_Search_20251219_Leonardo%E7%AB%9E%E5%93%81_XK&utm_term=leonardo%20image%20generator&utm_content=%E7%AB%9E%E5%93%81%E8%AF%8D&id=d4kssode878c7387fae0&model_ver_no=ef24b47a8d618127c9342fd0635aedb9",
-    "label": "Safe",
-    "score": 25,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:38:20.193Z",
-    "refId": "REF-UD3L0W8RU"
-  },
-  {
-    "url": "https://www.bing.com/search?pglt=299&q=image+generator+free&cvid=572e07555e27426a9cce58f24a228294&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg1MDg3ajBqMagCALACAA&FORM=ANSPA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:38:11.176Z",
-    "refId": "REF-WSU4OGXKJ"
-  },
-  {
-    "url": "https://www.bing.com/search?pglt=299&q=image+generator+free&cvid=572e07555e27426a9cce58f24a228294&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg1MDg3ajBqMagCALACAA&FORM=ANSPA1&PC=U531",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-18T15:38:07.015Z",
-    "refId": "REF-79Z0XSSN0"
-  },
-  {
-    "url": "https://support.google.com/chrome_webstore/answer/2664769?visit_id=639064375216479682-677426337&p=enable_extensions&rd=1#extensionpermissions",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:38:06.668Z",
-    "refId": "REF-550SUBJXY"
-  },
-  {
-    "url": "http://amaz0n-security-check.verify-user.xyz/@login",
-    "label": "Malicious",
-    "score": 100,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:35:22.029Z",
-    "refId": "REF-943FCTTCF"
-  },
-  {
-    "url": "https://pf-balance-check.ml/",
-    "label": "Safe",
-    "score": 15,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:34:55.633Z",
-    "refId": "REF-LAFNE1S1D"
-  },
-  {
-    "url": "https://pf-balance-check.ml/",
-    "label": "Safe",
-    "score": 15,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:34:47.642Z",
-    "refId": "REF-20HOURY83"
-  },
-  {
-    "url": "https://en.wikipedia.org/wiki/%22Buzz!!%22_The_Movie",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:33:39.596Z",
-    "refId": "REF-RHZHRBZ8Y"
-  },
-  {
-    "url": "https://search.brave.com/search?q=b**f**a*iz.buzz&source=desktop",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:33:32.368Z",
-    "refId": "REF-PWD1E39F8"
-  },
-  {
-    "url": "https://search.brave.com/search?q=threat+website+listed+&source=web&summary=1&conversation=08badc460e7b3727ba5a06193f67c569ddf2",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:33:21.475Z",
-    "refId": "REF-68H2M69RT"
-  },
-  {
-    "url": "https://search.brave.com/search?q=threat+website+listed+&source=web",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:33:16.156Z",
-    "refId": "REF-79L5A1VH0"
-  },
-  {
-    "url": "https://search.brave.com/search?q=threat+website+listed+on+kagg%3Ble+dataset&source=desktop",
-    "label": "Safe",
-    "score": 15,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:33:01.907Z",
-    "refId": "REF-EAPJAJ0HG"
-  },
-  {
-    "url": "https://search.brave.com/ask?q=threat+website+listed+on+kagg%3Ble+dataset&source=web&conversation=08bae6afde68167fd2869e5f621c4d1dd679",
-    "label": "Safe",
-    "score": 25,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:32:23.537Z",
-    "refId": "REF-UOC2XX215"
-  },
-  {
-    "url": "https://search.brave.com/ask?q=threat+website+listed+on+kagg%3Ble+dataset&source=web",
-    "label": "Safe",
-    "score": 15,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:32:23.146Z",
-    "refId": "REF-44LVXG3UM"
-  },
-  {
-    "url": "https://search.brave.com/search?q=threat+website+listed+on+kagg%3Ble+dataset&source=desktop",
-    "label": "Safe",
-    "score": 15,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:32:12.656Z",
-    "refId": "REF-9FMG7PS3R"
-  },
-  {
-    "url": "https://vegamovies.et/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:31:49.683Z",
-    "refId": "REF-UW1GSX3GC"
-  },
-  {
-    "url": "https://example.com/",
-    "label": "Safe",
-    "score": 0,
-    "source": "heuristics",
-    "timestamp": "2026-02-12T11:30:16.275Z",
-    "refId": "REF-HA4LRBK9M"
-  },
-  {
-    "url": "http://apple-secure-verify-login-update.top",
-    "label": "Malicious",
-    "score": 55,
-    "source": "heuristics",
-    "timestamp": "2026-02-11T21:44:15.500Z",
-    "refId": "REF-RTDAKJIJH"
-  },
-  {
-    "url": "http://apple-secure-verify-login-update.top",
-    "label": "Malicious",
-    "score": 55,
-    "source": "heuristics",
-    "timestamp": "2026-02-11T21:43:15.826Z",
-    "refId": "REF-1730FSQS4"
-  },
-  {
-    "url": "http://br-icloud.com.br",
-    "label": "Malicious",
-    "score": 95,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:43:01.216Z",
-    "refId": "REF-Z25J77WQN"
-  },
-  {
-    "url": "http://wap. xxxmobilemovieclub.com?n=QJKGIGHJJGCBL",
-    "label": "Malicious",
-    "score": 95,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:48.664Z",
-    "refId": "REF-QS40OC488"
-  },
-  {
-    "url": "mp3raid.com/music/krizz_kaliko.html",
-    "label": "Safe",
-    "score": 0,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:48.657Z",
-    "refId": "REF-3GUAYP0XL"
-  },
-  {
-    "url": "br-icloud.com.br",
-    "label": "Malicious",
-    "score": 95,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:48.640Z",
-    "refId": "REF-OIH8JEOSJ"
-  },
-  {
-    "url": "http://wap. xxxmobilemovieclub.com?n=QJKGIGHJJGCBL",
-    "label": "Malicious",
-    "score": 95,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:17.126Z",
-    "refId": "REF-TSS2P9YTY"
-  },
-  {
-    "url": "mp3raid.com/music/krizz_kaliko.html",
-    "label": "Safe",
-    "score": 0,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:17.119Z",
-    "refId": "REF-IOUVTM04O"
-  },
-  {
-    "url": "br-icloud.com.br",
-    "label": "Malicious",
-    "score": 95,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:17.101Z",
-    "refId": "REF-N956GU5UK"
-  },
-  {
-    "url": "http://wap. xxxmobilemovieclub.com?n=QJKGIGHJJGCBL",
-    "label": "Malicious",
-    "score": 95,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:11.716Z",
-    "refId": "REF-B35L6BNX4"
-  },
-  {
-    "url": "mp3raid.com/music/krizz_kaliko.html",
-    "label": "Safe",
-    "score": 0,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:11.709Z",
-    "refId": "REF-4G52JW0Q6"
-  },
-  {
-    "url": "br-icloud.com.br",
-    "label": "Malicious",
-    "score": 95,
-    "source": "dataset",
-    "timestamp": "2026-02-11T21:42:11.694Z",
-    "refId": "REF-S9PNUZ6LW"
-  },
-  {
-    "url": "https://www.flipkart.com/g9b/~cs-7lvtvwi8kr/pr?sid=g9b&collection-tab-name=SKINIMALISM&pageCriteria=default&sort=popularity&param=98765&BU=BGM",
-    "label": "Safe",
-    "score": 15,
-    "source": "heuristics",
-    "timestamp": "2026-02-11T21:41:44.916Z",
-    "refId": "REF-K47Q20CBG"
-  },
-  {
-    "url": "https://www.flipkart.com/spoyl-beauty-bbd-store?param=56784&BU=LifeStyle&ov_redirect=true&pageUID=1770845953603",
-    "label": "Safe",
-    "score": 15,
-    "source": "heuristics",
-    "timestamp": "2026-02-11T21:39:14.485Z",
-    "refId": "REF-G1G92DHUY"
-  },
-  {
-    "url": "https://www.flipkart.com/spoyl-men-store?param=98765&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdlblogVHJlbmRzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D&ov_redirect=true&pageUID=1770845784296",
-    "label": "Malicious",
-    "score": 45,
-    "source": "heuristics",
-    "timestamp": "2026-02-11T21:36:24.342Z",
-    "refId": "REF-QFX8C4H5R"
   }
 ]
