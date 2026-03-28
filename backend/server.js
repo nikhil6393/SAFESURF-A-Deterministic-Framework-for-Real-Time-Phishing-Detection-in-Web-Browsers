@@ -49,6 +49,10 @@ const analyzeURL = (url) => {
 };
 
 // API Endpoints
+app.get('/', (req, res) => {
+    res.json({ status: 'Online', message: 'SafeSurf Security Backend is running' });
+});
+
 app.post('/api/check-url', async (req, res) => {
     const { url } = req.body;
     if (!url) return res.status(400).json({ error: "URL is required" });
