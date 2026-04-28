@@ -4,119 +4,298 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SafeSurf | Neural Security Perimeter</title>
+    <title>SafeSurf | Neural Threat Intelligence Platform</title>
+    <meta name="description" content="Advanced AI-powered malware URL detection with real-time heuristic analysis and zero-day anomaly detection.">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
-    <!-- HIGH-PERFORMANCE ANIMATED BACKGROUND -->
-    <div class="hologram-bg">
-        <div class="glow-orb orb-1"></div>
-        <div class="glow-orb orb-2"></div>
-        <div class="scanline-overlay"></div>
-    </div>
+    <!-- DEEP SPACE BACKGROUND -->
+    <canvas id="bgCanvas"></canvas>
+    <div class="aurora-layer"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- FLOATING PARTICLES -->
+    <div class="floating-particles" id="particles"></div>
 
     <!-- NOTIFICATION TOAST -->
     <div id="toast" class="toast-notification">
-        <i class="fas fa-shield-halved"></i>
+        <div class="toast-glow"></div>
+        <div class="toast-icon-wrap">
+            <i class="fas fa-shield-halved"></i>
+        </div>
         <div class="toast-content">
             <span class="toast-title">Scan Complete</span>
             <p id="toast-msg">Assessment finished successfully.</p>
         </div>
+        <button class="toast-close" onclick="document.getElementById('toast').classList.remove('active')">
+            <i class="fas fa-xmark"></i>
+        </button>
+    </div>
+
+    <!-- SCAN RESULT MODAL -->
+    <div id="scanModal" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-3d-bg"></div>
+            <button class="modal-close" onclick="closeModal()"><i class="fas fa-xmark"></i></button>
+            <div class="modal-header">
+                <div id="modal-icon" class="modal-icon safe">
+                    <div class="modal-icon-ring"></div>
+                    <i class="fas fa-shield-check"></i>
+                </div>
+                <h2 id="modal-verdict">SAFE</h2>
+                <p id="modal-url" class="modal-url">https://example.com</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-stat-row">
+                    <div class="modal-stat glass-card-mini">
+                        <span class="modal-stat-label">Threat Score</span>
+                        <span id="modal-score" class="modal-stat-value">12%</span>
+                    </div>
+                    <div class="modal-stat glass-card-mini">
+                        <span class="modal-stat-label">Detection</span>
+                        <span id="modal-source" class="modal-stat-value">Heuristic</span>
+                    </div>
+                    <div class="modal-stat glass-card-mini">
+                        <span class="modal-stat-label">Scan Time</span>
+                        <span id="modal-time" class="modal-stat-value">0.3s</span>
+                    </div>
+                </div>
+                <div class="modal-bar-wrap">
+                    <div class="modal-bar-label">Risk Analysis</div>
+                    <div class="modal-bar-track">
+                        <div id="modal-bar" class="modal-bar-fill" style="width: 12%"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="modal-action-btn neon-btn" onclick="closeModal()">
+                <i class="fas fa-arrow-left"></i> Back to Dashboard
+            </button>
+        </div>
     </div>
 
     <!-- SIDEBAR -->
-    <aside class="sidebar">
-        <div class="logo">
-            <div class="logo-icon"><i class="fas fa-shield-halved"></i></div>
-            <span>SafeSurf <small>v2.0</small></span>
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-glass"></div>
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-shield-halved"></i>
+                        <div class="logo-pulse"></div>
+                        <div class="logo-pulse delay"></div>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-name">SafeSurf</span>
+                        <span class="logo-version">NEURAL v2.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="menu" aria-label="Main navigation">
+                <div class="menu-section-label">OPERATIONS</div>
+                <a href="#" class="active" data-page="dashboard" id="nav-dashboard">
+                    <div class="menu-icon"><i class="fas fa-layer-group"></i></div>
+                    <span>Dashboard</span>
+                    <div class="menu-hover-glow"></div>
+                </a>
+                <a href="#" data-page="history" id="nav-history">
+                    <div class="menu-icon"><i class="fas fa-clock-rotate-left"></i></div>
+                    <span>Scan Archives</span>
+                    <div class="menu-hover-glow"></div>
+                </a>
+
+                <div class="menu-section-label">INTELLIGENCE</div>
+                <a href="#" data-page="database" id="nav-database">
+                    <div class="menu-icon"><i class="fas fa-database"></i></div>
+                    <span>Threat Database</span>
+                    <div class="menu-hover-glow"></div>
+                </a>
+                <a href="#" data-page="analytics" id="nav-analytics">
+                    <div class="menu-icon"><i class="fas fa-chart-line"></i></div>
+                    <span>Analytics</span>
+                    <div class="menu-hover-glow"></div>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="system-status">
+                    <div class="status-indicator online"></div>
+                    <span>Neural Core Online</span>
+                </div>
+                <div class="engine-stats">
+                    <div class="engine-bar">
+                        <div class="engine-bar-fill" style="width: 87%;"></div>
+                    </div>
+                    <span class="engine-label">Engine Load: 87%</span>
+                </div>
+            </div>
         </div>
-
-        <nav class="menu">
-            <a href="#" class="active" data-page="dashboard"><i class="fas fa-layer-group"></i> Dashboard</a>
-            <a href="#" data-page="history"><i class="fas fa-clock-rotate-left"></i> Security Archives</a>
-            <a href="#" data-page="database"><i class="fas fa-database"></i> Threat Database</a>
-            <a href="#" data-page="analytics"><i class="fas fa-chart-line"></i> Analytics</a>
-        </nav>
-
-        <!-- User profile section removed -->
     </aside>
 
+    <!-- MOBILE OVERLAY -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
     <!-- CONTENT -->
-    <main class="main-content">
+    <main class="main-content" id="mainContent">
         <header class="header">
-            <div class="welcome">
-                <h1>Threat Intelligence Hub</h1>
-                <p>Live heuristic monitoring & zero-day anomaly detection</p>
-            </div>
-            <div class="search-bar">
-                <i class="fas fa-search search-icon"></i>
-                <input type="text" id="urlInput" placeholder="Enter Target URL for Heuristic Analysis...">
-                <button onclick="scanURL()" class="scan-btn">
-                    <span id="scan-text">ANALYZE URL</span>
-                    <i class="fas fa-bolt-lightning"></i>
+            <div class="header-left">
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+                    <i class="fas fa-bars"></i>
                 </button>
+                <div class="welcome">
+                    <div class="welcome-badge">
+                        <i class="fas fa-satellite-dish"></i>
+                        <span>LIVE MONITORING</span>
+                    </div>
+                    <h1>Threat Intelligence <span class="text-gradient">Hub</span></h1>
+                    <p>Real-time heuristic monitoring & zero-day anomaly detection</p>
+                </div>
+            </div>
+            <div class="search-bar-3d" id="searchBar">
+                <div class="search-bar-inner">
+                    <div class="search-icon-wrap">
+                        <i class="fas fa-crosshairs search-icon"></i>
+                    </div>
+                    <input type="text" id="urlInput" placeholder="Paste a suspicious URL to analyze..."
+                        aria-label="URL input for analysis" autocomplete="off" spellcheck="false">
+                    <button onclick="scanURL()" class="scan-btn neon-btn" id="scanBtn" aria-label="Analyze URL">
+                        <span id="scan-text">Analyze</span>
+                        <i class="fas fa-bolt"></i>
+                        <div class="btn-particles"></div>
+                    </button>
+                </div>
+                <div class="search-bar-glow"></div>
             </div>
         </header>
 
         <!-- DASHBOARD PAGE -->
         <div id="dashboard-page" class="page-content active">
+            <!-- 3D STAT CARDS -->
             <div class="stats-grid">
-                <div class="card stat-card blue">
-                    <div class="label">TOTAL URLS SCANNED</div>
-                    <div class="stat-value">
-                        <h2 id="hero-total">0</h2>
-                        <i class="fas fa-microchip"></i>
+                <div class="tilt-card stat-card" data-accent="purple" id="stat-total">
+                    <div class="card-3d-inner">
+                        <div class="card-shine"></div>
+                        <div class="card-border-glow purple"></div>
+                        <div class="stat-top">
+                            <div class="stat-icon-wrap purple">
+                                <i class="fas fa-crosshairs"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="stat-trend up">
+                                <i class="fas fa-arrow-trend-up"></i>
+                                <span>+12%</span>
+                            </div>
+                        </div>
+                        <div class="stat-bottom">
+                            <h2 id="hero-total" class="stat-number">0</h2>
+                            <span class="stat-label">URLs Analyzed</span>
+                        </div>
+                        <div class="stat-3d-orb purple"></div>
                     </div>
                 </div>
-                <div class="card stat-card rose">
-                    <div class="label">MALICIOUS PAYLOADS BLOCKED</div>
-                    <div class="stat-value">
-                        <h2 id="hero-blocked">0</h2>
-                        <i class="fas fa-shield-virus"></i>
+
+                <div class="tilt-card stat-card" data-accent="rose" id="stat-blocked">
+                    <div class="card-3d-inner">
+                        <div class="card-shine"></div>
+                        <div class="card-border-glow rose"></div>
+                        <div class="stat-top">
+                            <div class="stat-icon-wrap rose">
+                                <i class="fas fa-shield-virus"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="stat-trend up danger-text">
+                                <i class="fas fa-arrow-trend-up"></i>
+                                <span>+5%</span>
+                            </div>
+                        </div>
+                        <div class="stat-bottom">
+                            <h2 id="hero-blocked" class="stat-number">0</h2>
+                            <span class="stat-label">Threats Blocked</span>
+                        </div>
+                        <div class="stat-3d-orb rose"></div>
                     </div>
                 </div>
-                <div class="card stat-card cyan">
-                    <div class="label">THREAT SIGNATURES</div>
-                    <div class="stat-value">
-                        <h2 id="intelligence-size">0</h2>
-                        <i class="fas fa-dna"></i>
+
+                <div class="tilt-card stat-card" data-accent="cyan" id="stat-sigs">
+                    <div class="card-3d-inner">
+                        <div class="card-shine"></div>
+                        <div class="card-border-glow cyan"></div>
+                        <div class="stat-top">
+                            <div class="stat-icon-wrap cyan">
+                                <i class="fas fa-fingerprint"></i>
+                                <div class="icon-ring"></div>
+                            </div>
+                            <div class="stat-trend neutral">
+                                <i class="fas fa-minus"></i>
+                                <span>Stable</span>
+                            </div>
+                        </div>
+                        <div class="stat-bottom">
+                            <h2 id="intelligence-size" class="stat-number">0</h2>
+                            <span class="stat-label">Threat Signatures</span>
+                        </div>
+                        <div class="stat-3d-orb cyan"></div>
                     </div>
                 </div>
             </div>
 
-            <div class="middle-grid">
-                <div class="card">
-                    <div class="card-header">
-                        <h3><i class="fas fa-wave-square"></i> Live Scan Activity</h3>
-                        <div class="badge-tag">LIVE TELEMETRY</div>
-                    </div>
-                    <div class="chart-box">
-                        <canvas id="activityChart"></canvas>
+            <!-- CHART SECTION -->
+            <div class="chart-section">
+                <div class="glass-card chart-card tilt-card">
+                    <div class="card-3d-inner">
+                        <div class="card-shine"></div>
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <h3><i class="fas fa-wave-square"></i> Live Scan Activity</h3>
+                                <p class="card-subtitle">Risk scores over time</p>
+                            </div>
+                            <div class="badge-tag live">
+                                <span class="pulse-dot"></span>
+                                LIVE TELEMETRY
+                            </div>
+                        </div>
+                        <div class="chart-box">
+                            <canvas id="activityChart"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="card table-card">
+            <!-- TABLE -->
+            <div class="glass-card table-card">
                 <div class="table-head">
-                    <h3>Live Threat Telemetry</h3>
-                    <div class="badge-tag live-badge"><span class="pulse-dot"></span> LIVE MONITORING</div>
+                    <div class="table-title-group">
+                        <h3><i class="fas fa-radar neon-icon"></i> Recent Threat Scans</h3>
+                        <p class="card-subtitle">Latest URL analyses from the neural engine</p>
+                    </div>
+                    <div class="badge-tag live">
+                        <span class="pulse-dot"></span>
+                        LIVE FEED
+                    </div>
                 </div>
                 <div class="table-container">
                     <table>
                         <thead>
                             <tr>
-                                <th>REF_ID</th>
-                                <th>TARGET HOST</th>
-                                <th>THREAT_VECTOR</th>
+                                <th>ID</th>
+                                <th>URL</th>
+                                <th>SOURCE</th>
                                 <th>VERDICT</th>
                                 <th>SCORE</th>
-                                <th>TIMESTAMP</th>
+                                <th>TIME</th>
                             </tr>
                         </thead>
-                        <tbody id="scanTableBody"></tbody>
+                        <tbody id="scanTableBody">
+                            <tr class="skeleton-row"><td colspan="6"><div class="skeleton-line"></div></td></tr>
+                            <tr class="skeleton-row"><td colspan="6"><div class="skeleton-line"></div></td></tr>
+                            <tr class="skeleton-row"><td colspan="6"><div class="skeleton-line"></div></td></tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -124,25 +303,32 @@
 
         <!-- HISTORY PAGE -->
         <div id="history-page" class="page-content">
-            <div class="card table-card">
+            <div class="glass-card table-card">
                 <div class="table-head">
-                    <h3>Global Security Audit Logs</h3>
+                    <div class="table-title-group">
+                        <h3><i class="fas fa-server neon-icon"></i> Security Audit Logs</h3>
+                        <p class="card-subtitle">Complete scan history with deep search</p>
+                    </div>
                     <div class="search-filter">
-                        <input type="text" id="historySearch" placeholder="Filter logs...">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="historySearch" placeholder="Search logs..." aria-label="Search history logs">
                     </div>
                 </div>
                 <div class="table-container">
                     <table>
                         <thead>
                             <tr>
-                                <th>LOG_ID</th>
-                                <th>TARGET VECTOR</th>
+                                <th>LOG ID</th>
+                                <th>TARGET URL</th>
                                 <th>VERDICT</th>
-                                <th>THREAT_SCORE</th>
-                                <th>DATE_TIME</th>
+                                <th>SCORE</th>
+                                <th>TIMESTAMP</th>
                             </tr>
                         </thead>
-                        <tbody id="fullHistoryBody"></tbody>
+                        <tbody id="fullHistoryBody">
+                            <tr class="skeleton-row"><td colspan="5"><div class="skeleton-line"></div></td></tr>
+                            <tr class="skeleton-row"><td colspan="5"><div class="skeleton-line"></div></td></tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -150,33 +336,79 @@
 
         <!-- DATABASE PAGE -->
         <div id="database-page" class="page-content">
-            <div class="card">
-                <div class="table-head">
-                    <h3>Intelligence Signature Repository</h3>
-                    <span id="db-count" class="badge">0 Indexed</span>
+            <div class="glass-card">
+                <div class="table-head" style="border-bottom: 1px solid var(--border);">
+                    <div class="table-title-group">
+                        <h3><i class="fas fa-dna neon-icon"></i> Threat Signature Repository</h3>
+                        <p class="card-subtitle">Known malicious URL patterns indexed</p>
+                    </div>
+                    <span id="db-count" class="badge-tag info">0 Indexed</span>
                 </div>
-                <div id="databaseGrid" class="intel-grid"></div>
+                <div id="databaseGrid" class="intel-grid">
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                </div>
             </div>
         </div>
 
         <!-- ANALYTICS PAGE -->
         <div id="analytics-page" class="page-content">
             <div class="analytics-grid">
-                <div class="card chart-card">
-                    <h3>Threat Vector Distribution</h3>
-                    <div class="chart-box" style="height: 380px;">
-                        <canvas id="analyticsChart"></canvas>
+                <div class="glass-card chart-card tilt-card">
+                    <div class="card-3d-inner">
+                        <div class="card-shine"></div>
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <h3><i class="fas fa-chart-pie"></i> Threat Distribution</h3>
+                                <p class="card-subtitle">Breakdown by category</p>
+                            </div>
+                        </div>
+                        <div class="chart-box" style="height: 380px;">
+                            <canvas id="analyticsChart"></canvas>
+                        </div>
                     </div>
                 </div>
-                <div class="card score-card">
-                    <h3>System Integrity</h3>
-                    <div class="score-display">
-                        <div class="score-ring">
-                            <span class="percentage" id="integrity-text">99.4%</span>
+                <div class="glass-card score-card tilt-card">
+                    <div class="card-3d-inner">
+                        <div class="card-shine"></div>
+                        <div class="card-header">
+                            <div class="card-title-group">
+                                <h3><i class="fas fa-gauge-high"></i> System Integrity</h3>
+                                <p class="card-subtitle">Neural engine health</p>
+                            </div>
                         </div>
-                        <div class="score-meta">
-                            <div class="m-item"><span>UPTIME</span><strong>99.9%</strong></div>
-                            <div class="m-item"><span>NODES</span><strong>1.2K</strong></div>
+                        <div class="score-display">
+                            <div class="score-ring-3d">
+                                <svg viewBox="0 0 120 120">
+                                    <defs>
+                                        <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#38bdf8"/>
+                                            <stop offset="50%" style="stop-color:#a855f7"/>
+                                            <stop offset="100%" style="stop-color:#f43f5e"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="score-ring-bg" cx="60" cy="60" r="52"/>
+                                    <circle class="score-ring-fill" cx="60" cy="60" r="52" stroke="url(#ringGrad)" id="integrity-ring"/>
+                                </svg>
+                                <span class="percentage" id="integrity-text">99.4%</span>
+                                <div class="ring-glow"></div>
+                            </div>
+                            <div class="score-meta">
+                                <div class="m-item glass-card-mini">
+                                    <span>UPTIME</span>
+                                    <strong>99.9%</strong>
+                                </div>
+                                <div class="m-item glass-card-mini">
+                                    <span>SIGNATURES</span>
+                                    <strong>1.2K</strong>
+                                </div>
+                                <div class="m-item glass-card-mini">
+                                    <span>LATENCY</span>
+                                    <strong>42ms</strong>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
